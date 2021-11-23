@@ -19,7 +19,7 @@ class OverviewViewModel: ViewModel() {
         viewModelScope.launch {
 //            try {
                 var result = Api.retrofitService.getCountry()
-                _numberOfCountry.value = result.toString()
+                _numberOfCountry.value = result[0].msg
 //            }catch (e: Exception) {
                 //_numberOfCountry.value = "Failure: ${e.message}"
 //            }
