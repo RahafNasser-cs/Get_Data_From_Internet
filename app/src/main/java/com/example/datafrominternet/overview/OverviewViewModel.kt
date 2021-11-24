@@ -17,12 +17,12 @@ class OverviewViewModel: ViewModel() {
 
     private fun getNumberOfCountry() {
         viewModelScope.launch {
-//            try {
+            try {
                 var result = Api.retrofitService.getCountry()
-                _numberOfCountry.value = result[0].msg
-//            }catch (e: Exception) {
-                //_numberOfCountry.value = "Failure: ${e.message}"
-//            }
+                _numberOfCountry.value = result.data.size.toString()
+            }catch (e: Exception) {
+                _numberOfCountry.value = "Failure: ${e.message}"
+            }
 
         }
     }
