@@ -3,8 +3,12 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/CS_ra/Downloads/dataFromInternet/app/src/main/res/drawable-v24/ic_launcher_background.xml" value="0.25052083333333336" />
+        <entry key="..\:/Users/CS_ra/Downloads/dataFromInternet/app/src/main/res/drawable/ic_baseline_broken_image_24.xml" value="0.25052083333333336" />
+        <entry key="..\:/Users/CS_ra/Downloads/dataFromInternet/app/src/main/res/drawable/loading_img.xml" value="0.25052083333333336" />
         <entry key="..\:/Users/CS_ra/Downloads/dataFromInternet/app/src/main/res/layout/activity_main.xml" value="0.2359375" />
         <entry key="..\:/Users/CS_ra/Downloads/dataFromInternet/app/src/main/res/layout/fragment_first.xml" value="0.25" />
+        <entry key="..\:/Users/CS_ra/Downloads/dataFromInternet/app/src/main/res/layout/grid_view_item.xml" value="0.234375" />
       </map>
     </option>
   </component>
