@@ -43,6 +43,8 @@ fun ImageView.findUrl2(imgUrl: String?) {
         .crossfade(500)
         .data(imgUrl)
         .target(this)
+        .placeholder(R.drawable.loading_animation)
+        .error(R.drawable.ic_baseline_broken_image_24)
         .build()
 
     imageLoader.enqueue(request)
